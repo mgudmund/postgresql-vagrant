@@ -28,5 +28,5 @@ To get PostgreSQL up and running:
 
 > export PATH=$PATH:/usr/pgsql-9.3/bin
 
-After this you shouls have a PostgreSQL instance up and running.
+After this you should have a PostgreSQL instance up and running.
 
