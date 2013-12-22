@@ -8,7 +8,7 @@ My vagrant files for postgres boxes.
 
 To get started download Virtualbox and Vagrant.
 
-The get the Vagrantfile of choice and run:
+Get the Vagrantfile of choice and run:
 > vagrant up
 
 And the box will be downloaded and started as a virtual machine.
