@@ -19,9 +19,13 @@ To login to the box, do:
 To get PostgreSQL up and running:
 
 > sudo su -
+
 > service postgresql-9.3 initdb
+
 > service postgresql-9.3 start
+
 > su - postgres
+
 > export PATH=$PATH:/usr/pgsql-9.3/bin
 
 After this you shouls have a PostgreSQL instance up and running.
