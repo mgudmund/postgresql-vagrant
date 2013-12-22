@@ -1,0 +1,11 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "centos6.5_pgsql9.3.2"
+  config.vm.box_url = "https://www.dropbox.com/s/5usb9xgawnhmlq4/centos6.5-pgsql-9.3.2.box"
+
+  config.vm.provider :virtualbox do |vb|
+    vb.customize ["modifyvm", :id, "--memory", "1024"]
+    vb.customize ["modifyvm", :id, "--cpus", "1"]
+    vb.customize ["modifyvm", :id, "--ioapic", "on"]
+  end
+end
+
